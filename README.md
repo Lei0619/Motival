@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🍜 Motivation System
+# Motivation System
 
 ### Because “I'll do it later” is not a productivity system.
 
@@ -19,11 +19,11 @@ and stay motivated through personalized rewards.**
 
 ---
 
-## 🧠 About the Project
+##  About the Project
 
 Student life isn't just about having a lot to do.
 
-Sometimes it's about opening your task list, seeing **17 things waiting for you**, and immediately deciding that tomorrow sounds like a better day. 💀
+Sometimes it's about opening your task list, seeing **17 things waiting for you**, and immediately deciding that tomorrow sounds like a better day. 
 
 The **Motivation System App for Students** was created around a simple problem:
 
@@ -31,21 +31,21 @@ The **Motivation System App for Students** was created around a simple problem:
 
 Based on common student experiences, some of the major struggles include:
 
-- 📚 Heavy school workloads
-- ⏰ Deadlines and poor time management
-- 🥱 Boredom and tiredness
-- 📉 Loss of motivation
-- 🧠 Difficulty balancing school and personal responsibilities
+-  Heavy school workloads
+-  Deadlines and poor time management
+-  Boredom and tiredness
+-  Loss of motivation
+-  Difficulty balancing school and personal responsibilities
 
 Instead of creating another basic to-do list, this project combines **productivity with motivation**.
 
 ---
 
-## 🎯 The Idea
+##  The Idea
 
 ### **Plan → Do → Reward**
 
-| 📝 PLAN | ⚡ DO | 🍜 REWARD |
+|  PLAN |  DO |  REWARD |
 |:---:|:---:|:---:|
 | Add your responsibilities | Complete your tasks | Get something to look forward to |
 | Assignments | Projects | Comfort food |
@@ -58,26 +58,26 @@ The idea is simple:
 
 ---
 
-## ✨ What Can You Manage?
+## What Can You Manage?
 
 The system isn't limited to schoolwork.
 
 You can organize:
 
-- 📖 Assignments
-- 🧪 Projects
-- 📝 School activities
-- 🧹 Chores
-- 🎮 Hobbies
-- 🏃 Personal activities
-- 📅 Daily plans
-- ⏳ Upcoming deadlines
+-  Assignments
+-  Projects
+-  School activities
+-  Chores
+-  Hobbies
+-  Personal activities
+-  Daily plans
+-  Upcoming deadlines
 
 Because productivity doesn't stop when you leave the classroom.
 
 ---
 
-## 🍜 The Reward System
+##  The Reward System
 
 Here's where the project gets a little different.
 
@@ -89,7 +89,7 @@ When a task is completed, the system can select one of those rewards.
 >
 > You survived the deadline.
 >
-> **Now go get that food.** 🍜
+> **Now go get that food.** 
 
 The goal isn't to encourage constant rewards.
 
@@ -97,7 +97,7 @@ It's about creating a small positive feedback loop that makes completing respons
 
 ---
 
-## 💡 Why This Project Exists
+##  Why This Project Exists
 
 The goal isn't to turn students into productivity robots.
 
@@ -113,17 +113,17 @@ Ultimately, the project aims to encourage better time-management habits while he
 
 <div align="center">
 
-### 🚀 Finish the work.
-### 🍜 Get the reward.
-### 🏆 Enjoy the win.
+###  Finish the work.
+###  Get the reward.
+###  Enjoy the win.
 
 </div>
 
 ---
 
-## 🛠️ Project Status
+##  Project Status
 
-> 🚧 **This project is currently under development.**
+>  **This project is currently under development.**
 
 New features, improvements, and refinements will be added as development continues.
 
