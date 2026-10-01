@@ -649,7 +649,7 @@ public class MotivaDashboard extends JFrame {
 
         JLabel title =
                 new JLabel(
-                        "Good morning, "
+                        "Hello, "
                                 + userName
                 );
 
