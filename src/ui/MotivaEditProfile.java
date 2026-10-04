@@ -5,7 +5,11 @@ import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
-/** Form for changing a student's name and year level. */
+/**
+ * Gives the student a simple way to update their saved profile information,
+ * especially their name and year level, so the app stays aligned with their
+ * current academic details.
+ */
 public class MotivaEditProfile extends JFrame {
 
 

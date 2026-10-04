@@ -5,7 +5,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 
-/** Lets the student review and manage saved food rewards. */
+/**
+ * Displays the student's saved food rewards and lets them review, adjust, or
+ * remove items as part of the motivating reward system built into Motiva.
+ */
 public class MotivaRewards extends JFrame {
 
     private JPanel rewardsPanel;

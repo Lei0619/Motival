@@ -4,7 +4,10 @@ import service.AppData;
 import javax.swing.*;
 import java.awt.*;
 
-/** Form for entering and saving a favorite food reward. */
+/**
+ * Lets the student add a favorite food reward and save it locally so it can be
+ * shown later on the rewards screen and tied to progress milestones.
+ */
 public class MotivaAddFavoriteFood extends JFrame {
 
     private JTextField foodField;

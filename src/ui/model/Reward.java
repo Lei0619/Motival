@@ -2,7 +2,10 @@ package model;
 
 import java.io.Serializable;
 
-/** Base class for rewards shown after a task is completed. */
+/**
+ * Acts as the common base for all reward types in the app, giving each reward a
+ * shared identity and a consistent way to produce its message when earned.
+ */
 public abstract class Reward implements Serializable {
 
     private static final long serialVersionUID = 1L;

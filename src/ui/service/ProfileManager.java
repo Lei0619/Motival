@@ -4,7 +4,10 @@ import model.Profile;
 
 import java.io.*;
 
-/** Loads and saves the student's profile. */
+/**
+ * Manages the student's saved profile data, including loading the current
+ * profile from disk and persisting updates whenever the user changes their info.
+ */
 public class ProfileManager {
 
     private Profile profile;

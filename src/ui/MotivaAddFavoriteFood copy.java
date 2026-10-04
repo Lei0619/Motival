@@ -5,7 +5,12 @@ import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
-/** An alternate screen for adding a food reward. */
+/**
+ * Provides a separate, alternate version of the food reward form for adding a
+ * favorite item in a different layout or workflow. This screen keeps the same
+ * core purpose as the main reward form while offering a slightly different UI
+ * presentation for usability or testing purposes.
+ */
 class MotivaAddFavoriteFoodCopy extends JFrame {
 
     private JTextField foodNameField;

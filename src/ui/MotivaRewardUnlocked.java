@@ -4,7 +4,10 @@ import java.awt.*;
 
 import model.FoodReward;
 
-/** Shows the reward selected after a task is completed. */
+/**
+ * Celebrates a completed task by showing the student which reward they earned,
+ * creating a positive feedback moment that reinforces motivation and progress.
+ */
 public class MotivaRewardUnlocked extends JFrame {
 
     private final Color BURGUNDY =

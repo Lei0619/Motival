@@ -5,7 +5,10 @@ import model.FoodReward;
 import java.io.*;
 import java.util.ArrayList;
 
-/** Loads and saves the student's food rewards. */
+/**
+ * Handles the storage and retrieval of the student's food rewards so the app can
+ * display earned or saved rewards consistently across the interface.
+ */
 public class RewardManager {
 
     private ArrayList<FoodReward> foodRewards;

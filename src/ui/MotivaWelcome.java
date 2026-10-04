@@ -6,7 +6,14 @@ import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.geom.RoundRectangle2D;
 
-/** Collects the student's profile details before opening the dashboard. */
+/**
+ * Welcomes the student to Motiva and gathers the basic profile details needed
+ * before they can enter the rest of the application.
+ *
+ * This screen introduces the app, captures the student's name and year level,
+ * saves the information locally, and then opens the dashboard when the user is
+ * ready to continue.
+ */
 public class MotivaWelcome extends JFrame {
 
 
@@ -83,6 +90,10 @@ public class MotivaWelcome extends JFrame {
 
 
 
+    /**
+     * Builds the welcome screen and arranges the branding, onboarding content,
+     * and profile form into a polished single-page layout.
+     */
     public MotivaWelcome() {
 
         setTitle(
@@ -131,6 +142,10 @@ public class MotivaWelcome extends JFrame {
 
 
 
+    /**
+     * Creates the left side of the welcome screen, which carries the app's brand,
+     * motivational messaging, and the short benefits summary for students.
+     */
     private JPanel createLeftPanel() {
 
         JPanel panel =
@@ -587,6 +602,10 @@ public class MotivaWelcome extends JFrame {
 
 
 
+    /**
+     * Creates the right side of the welcome screen, where the student enters
+     * their profile information and confirms that they are ready to continue.
+     */
     private JPanel createRightPanel() {
 
         JPanel panel =
@@ -1055,6 +1074,8 @@ public class MotivaWelcome extends JFrame {
 
 
 
+        // Validates the entered student information, saves it locally, and opens
+        // the main dashboard when the user has completed the onboarding form.
         JButton enterButton =
                 new JButton(
                         "Enter Motiva"
@@ -1316,6 +1337,10 @@ public class MotivaWelcome extends JFrame {
 
 
 
+    /**
+     * Reusable label style used for small field headings such as name, program,
+     * and year level within the profile form.
+     */
     private JLabel createSectionLabel(
             String text
     ) {
@@ -1342,6 +1367,11 @@ public class MotivaWelcome extends JFrame {
 
 
 
+    /**
+     * A lightweight helper panel that draws rounded corners so the interface can
+     * maintain a softer, more modern visual design without relying on external
+     * libraries.
+     */
     private static class RoundedPanel
             extends JPanel {
 
@@ -1405,6 +1435,10 @@ public class MotivaWelcome extends JFrame {
 
 
 
+    /**
+     * Starts the application by opening the welcome screen in the Swing event
+     * dispatch thread, which is the standard way to launch a desktop UI safely.
+     */
     public static void main(
             String[] args
     ) {

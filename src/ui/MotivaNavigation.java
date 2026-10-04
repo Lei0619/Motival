@@ -1,6 +1,9 @@
 import javax.swing.*;
 
-/** Handles screen changes and closes the previous window. */
+/**
+ * Centralizes the app's screen navigation logic, helping one window transition
+ * smoothly to another while closing the previous view to keep the interface tidy.
+ */
 public class MotivaNavigation {
 
     private MotivaNavigation() {

@@ -10,7 +10,10 @@ import java.util.Locale;
 import model.Schedule;
 import service.AppData;
 
-/** Shows the student's scheduled tasks and events. */
+/**
+ * Displays the student's schedule in a calendar-style view so they can see tasks,
+ * events, and important dates at a glance and better manage their time.
+ */
 public class MotivaSchedule extends JFrame {
 
     private static final Color BURGUNDY = new Color(0x62, 0x24, 0x2F);

@@ -2,7 +2,10 @@ package model;
 
 import java.io.Serializable;
 
-/** The student's saved name, year level, and program. */
+/**
+ * Stores the student's saved profile information, including their name,
+ * academic program, and year level, so the app can personalize the experience.
+ */
 public class Profile implements Serializable {
 
     private static final long serialVersionUID = 1L;

@@ -5,7 +5,10 @@ import java.awt.*;
 import model.FoodReward;
 import service.AppData;
 
-/** Form for adding a food reward or changing an existing reward's name. */
+/**
+ * Allows the student to either create a new food reward or edit the name of an
+ * existing one without leaving the rewards workflow.
+ */
 public class MotivaEditFavoriteFood extends JFrame {
 
     private static final Color BURGUNDY = new Color(98, 36, 47);

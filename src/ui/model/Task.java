@@ -1,7 +1,10 @@
 package model;
 import java.io.Serializable;
 
-/** A task's details and whether it has been completed. */
+/**
+ * Represents a single student task, including its title, due date, category,
+ * priority, and completion status, so progress can be tracked throughout the app.
+ */
 public class Task implements Serializable {
 
     private int id;

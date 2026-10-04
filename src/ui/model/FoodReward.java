@@ -1,6 +1,9 @@
 package model;
 
-/** A food reward, optionally paired with a short message. */
+/**
+ * Represents a food-based reward that can be earned by completing tasks, with an
+ * optional caption that adds motivation or a personal touch to the reward.
+ */
 public class FoodReward extends Reward {
 
     private static final long serialVersionUID = 1L;

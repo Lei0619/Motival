@@ -5,7 +5,10 @@ import model.Schedule;
 import java.io.*;
 import java.util.ArrayList;
 
-/** Loads and saves the tasks and events shown on the schedule. */
+/**
+ * Manages the schedule entries stored in the app, including tasks and events,
+ * so the calendar can load and persist user activity reliably.
+ */
 public class ScheduleManager {
 
     private ArrayList<Schedule> schedules;

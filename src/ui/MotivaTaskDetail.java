@@ -8,9 +8,9 @@ import model.FoodReward;
 import service.AppData;
 
 /**
- * Shows a selected task and sends changes through the app's managers.
- * Since tasks have no time field, this screen reads the time from a matching
- * schedule entry, preferring a title-and-date match before falling back to title.
+ * Displays a selected task in detail and allows the student to review the
+ * information, mark progress, and keep task updates consistent with the app's
+ * saved schedule and manager data.
  */
 public class MotivaTaskDetail extends JFrame {
 

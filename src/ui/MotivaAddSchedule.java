@@ -9,7 +9,10 @@ import model.Schedule;
 import model.Task;
 import service.AppData;
 
-/** Form for adding an entry to the schedule. */
+/**
+ * Lets the student create a schedule entry, whether it is a task or a personal
+ * event, and saves that information so it appears in the calendar and daily plan.
+ */
 public class MotivaAddSchedule extends JFrame {
 
 

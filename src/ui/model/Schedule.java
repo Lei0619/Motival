@@ -2,7 +2,10 @@ package model;
 
 import java.io.Serializable;
 
-/** A task or standalone event on the student's schedule. */
+/**
+ * Represents a scheduled item on the student's calendar, whether it is a task or
+ * an independent event, along with the associated metadata needed to display it.
+ */
 public class Schedule implements Serializable {
 
     private static final long serialVersionUID = 1L;

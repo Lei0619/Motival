@@ -7,7 +7,11 @@ import model.Schedule;
 import model.Task;
 import service.AppData;
 
-/** Form for creating a task or updating an existing one. */
+/**
+ * Provides the task editor used to create a new item or update an existing one.
+ * It captures the task details, stores the updated information, and keeps the
+ * student's workload organized across the app.
+ */
 public class MotivaAddTask extends JFrame {
 
 

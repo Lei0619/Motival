@@ -5,7 +5,10 @@ import model.Task;
 import java.io.*;
 import java.util.ArrayList;
 
-/** Loads and saves tasks, including their completion state. */
+/**
+ * Keeps track of the student's tasks and their completion status, loading saved
+ * work from storage and writing updates whenever their progress changes.
+ */
 public class TaskManager {
 
     private ArrayList<Task> tasks;

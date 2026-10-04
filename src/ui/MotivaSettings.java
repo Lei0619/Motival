@@ -5,7 +5,10 @@ import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
-/** Screen for updating profile details and choosing preferences. */
+/**
+ * Opens the settings screen where the student can review and update their profile
+ * details, manage personal preferences, and keep the app tailored to their needs.
+ */
 public class MotivaSettings extends JFrame {
 
     private static final Color BURGUNDY =

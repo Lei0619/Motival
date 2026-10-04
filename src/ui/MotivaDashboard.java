@@ -8,7 +8,10 @@ import model.Profile;
 import model.Task;
 import service.AppData;
 
-/** Main dashboard for reviewing activity and opening other screens. */
+/**
+ * Serves as the main home screen for the app, bringing together the student's
+ * progress, tasks, rewards, and quick navigation to the key parts of Motiva.
+ */
 public class MotivaDashboard extends JFrame {
 
 
